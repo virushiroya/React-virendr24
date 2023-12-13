@@ -1,0 +1,106 @@
+/*  
+    CSS FONT PROPERTIES
+	CSS TEXT PROPERTIES
+	CSS VERTICLE ALIGN
+    CSS WHITE SPACE
+    CSS VISIBILITY
+*/
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+/* css font properties */
+
+/* 
+
+1.font-family / Google font
+2.font-size
+3.font-style
+4.font-variant
+5.font-weight
+6.line-height 
+
+*/
+
+.font-family{
+    font-family: 'Roboto', sans-serif;
+    font-weight:300;
+    font-size:200%;
+    font-style: normal;
+    /* font-variant: small-caps; */
+    /* line-height: 70px; */
+}
+
+
+/*css text-properties */
+
+/*
+1.Text-color
+2.Text-alignment
+3.Text-decoration
+4.Text-transformation
+5.Text-indentation
+6.Letter spacing
+7.Word spacing
+8.Text-direction
+9.Text-shadow
+*/
+
+/* .maindiv{
+    text-align: justify;
+}
+.text{
+    color:red;
+    text-transform: capitalize;
+    text-indent: 200px;
+    letter-spacing: 20px;
+    word-spacing: 20px;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+span{
+    text-decoration: line-through green dotted;
+}
+a{
+    text-decoration: none;
+} */
+
+/* .shadow{
+    text-shadow: 5px 5px 1px gray;
+} */
+
+/* css verticle alignment */
+
+h1{
+    font-size: 100px;
+    text-decoration:underline ;
+}
+
+/* img{
+    vertical-align:;
+} */
+
+
+/* css white space */
+
+/* .white-space{
+    white-space: pre;
+} */
+
+
+
+/* css visibility */
+/* 
+p{
+    visibility: collapse;
+} */
+
+
+h1{
+    visibility: collapse;
+    display: none;
+}
