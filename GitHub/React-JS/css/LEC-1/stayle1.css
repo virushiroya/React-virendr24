@@ -19,9 +19,11 @@
         box-sizing: border-box;
     } */
 
+/***************************************/
+
         /* css comment */
 
-
+/***************************************/
 
 
 /* CASCADE SPECIFICITY AND INHERITANCE */
@@ -89,7 +91,7 @@
     border:5px solid black;
 } */
 
-!important rule
+/* !important rule */
 
 .para-1{
     background-color: red !important;
