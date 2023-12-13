@@ -1,0 +1,140 @@
+/* css width / height */
+
+/* .demo-div{
+    height: auto;
+    min-width: 600px;
+    background-color: orange;
+    border:2px solid black;
+}
+
+.img-fluid{
+    max-width: 600px;
+    height: auto;
+} */
+
+
+/* listing tag and table tag in css */
+
+
+/* listing tag */
+
+
+/*
+    list-style-type
+    list-style-position
+    list-style-image
+*/
+
+/* ol{
+    list-style-type:decimal-leading-zero;
+    list-style-position: inside;
+    list-style-image: url('../image/cartoon.png');
+} */
+
+
+
+/* unorder list */
+
+ul{
+    list-style-type: decimal;
+}
+
+ul li::marker{
+    color:green;
+}
+
+
+/* css box-shadow */
+
+/* .maindiv{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* .shadow{
+    height: 400px;
+    width: 300px;
+    border:2px solid black;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px gray;
+    box-shadow:inset 0px 0px 10px 20px gray ,inset 0px 0px 10px 20px red ,inset 0px 0px 10px 50px blue;
+} */
+
+
+/* accent-color*/
+
+/* input{
+    accent-color: red;
+}
+
+input[type="checkbox"]{
+    accent-color: yellow;
+} */
+
+
+/* 
+    disabled
+    enabled(default)
+    ::placeholder
+    :checked
+    :focus
+    :hover
+    :required
+    :invalid
+    :valid 
+    ::marker
+
+*/
+
+/* ::placeholder{
+    color:red;
+}
+
+input:focus{
+    background-color: gray;
+    outline: none;
+    border: none;
+}
+
+input:hover{
+    background-color: orange;
+} */
+
+/* input:invalid{
+    border:2px solid red;
+} */
+
+/* .message{
+    height: 20px;
+    width: 200px;
+    background-color: red;
+    display: none;
+}
+input:valid{
+    border:2px solid green;
+}
+input:invalid .message{
+    display: block;
+} */
+
+
+
+/*
+    :read-only
+    :read-write
+    :root
+    :lang()
+
+*/
+/* :root{
+    --color:red;
+    --color:green;
+}
+
+.box{
+    height: 100px;
+    width: 200px;
+    background-color: var(--color);
+} */

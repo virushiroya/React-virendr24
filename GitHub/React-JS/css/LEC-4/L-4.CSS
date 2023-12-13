@@ -5,13 +5,13 @@
     CSS WHITE SPACE
     CSS VISIBILITY
 */
-*{
+/* *{
     box-sizing: border-box;
 }
 
 body{
     margin: 0;
-}
+} */
 
 /* css font properties */
 
@@ -26,14 +26,14 @@ body{
 
 */
 
-.font-family{
+/* .font-family{
     font-family: 'Roboto', sans-serif;
     font-weight:300;
     font-size:200%;
     font-style: normal;
-    /* font-variant: small-caps; */
-    /* line-height: 70px; */
-}
+    font-variant: small-caps;
+    line-height: 70px;
+} */
 
 
 /*css text-properties */
@@ -50,24 +50,24 @@ body{
 9.Text-shadow
 */
 
-/* .maindiv{
+ /* .maindiv{ 
     text-align: justify;
 }
 .text{
     color:red;
     text-transform: capitalize;
-    text-indent: 200px;
-    letter-spacing: 20px;
-    word-spacing: 20px;
+    text-indent: 10px;
+    letter-spacing: 10px;
+    word-spacing: 10px;
     direction: rtl;
     unicode-bidi: bidi-override;
-}
-span{
+} */
+/* span{
     text-decoration: line-through green dotted;
 }
 a{
     text-decoration: none;
-} */
+}  */
 
 /* .shadow{
     text-shadow: 5px 5px 1px gray;
@@ -75,10 +75,10 @@ a{
 
 /* css verticle alignment */
 
-h1{
+/* h1{
     font-size: 100px;
     text-decoration:underline ;
-}
+} */
 
 /* img{
     vertical-align:;
@@ -100,7 +100,7 @@ p{
 } */
 
 
-h1{
+/* h1{
     visibility: collapse;
     display: none;
-}
+} */
