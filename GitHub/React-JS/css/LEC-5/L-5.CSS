@@ -34,14 +34,14 @@
 
 
 /* unorder list */
-
+/* 
 ul{
     list-style-type: decimal;
 }
 
 ul li::marker{
     color:green;
-}
+} */
 
 
 /* css box-shadow */
@@ -132,9 +132,9 @@ input:invalid .message{
     --color:red;
     --color:green;
 }
-
-.box{
+/*  */
+/* .box{
     height: 100px;
     width: 200px;
     background-color: var(--color);
-} */
+}  */
