@@ -1,17 +1,17 @@
 /* css width / height */
 
-/* .demo-div{
+ .demo-div{
     height: auto;
-    min-width: 600px;
+    max-width: 600px;
     background-color: orange;
     border:2px solid black;
 }
 
-.img-fluid{
-    max-width: 600px;
+ /* .img-fluid{
+    max-width: 500px;
     height: auto;
-} */
-
+} 
+ */
 
 /* listing tag and table tag in css */
 

@@ -3,9 +3,9 @@ body{
 }
 /* Css Pseudo Class */
 
-*{
+/* *{
     height: 50px;
-}
+} */
 
 /*
 
@@ -13,7 +13,6 @@ body{
     :first-of-type
     :last-child
     :last-of-type
-    :nth-child()
     :nth-last-child()
     :nth-last-of-type()
     :nth-of-type()
@@ -89,10 +88,6 @@ div[class*="x"]{
     opacity: 0.2;
 } */
 
-
-p::selection{
-    /* font-size: 50px; */
-    color:blueviolet;
-    text-decoration: underline;
+h1:where(div){
     background-color: yellow;
 }
