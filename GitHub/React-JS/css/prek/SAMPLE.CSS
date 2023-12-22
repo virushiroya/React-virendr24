@@ -1,0 +1,32 @@
+.sample{
+    background-color: blueviolet;
+    text-align: center;
+    width: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 90px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+
+.first{
+    background-color: aqua;
+    height: 150px;
+    
+     font-family:  Verdana, Geneva, Tahoma, sans-serif;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+}
+
+.Second{
+    background-color: aqua;
+    height: 150px;
+     font-family:  Verdana, Geneva, Tahoma, sans-serif;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+}
+
+.Third {
+    background-color: aqua;
+    height: 150px;
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+}

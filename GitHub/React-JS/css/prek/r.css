@@ -1,0 +1,39 @@
+  .maindiv{
+
+    background-color: aqua;
+  }
+   .maindiv div:nth-child(1){
+        height: 100px;
+        width: 100px;
+        background-color: red;
+        align-self: auto;
+    }
+    .maindiv div:nth-child(2){
+        height: 100px;
+        width: 100px;
+        background-color: green;
+        align-self: auto;
+
+    }
+    .maindiv div:nth-child(3){
+        height: 100px;
+        width: 100px;
+        background-color: blue;
+        align-self: end;
+    }
+    .maindiv div:nth-child(4){
+        height: 100px;
+        width: 100px;
+        background-color: purple;
+    }
+    .maindiv div:nth-child(5){
+        height: 100px;
+        width: 100px;
+        background-color: orange;
+    }
+    .maindiv div:nth-child(6){
+        height: 100px;
+        width: 100px;
+        background-color: black;
+        align-self: center;
+    }

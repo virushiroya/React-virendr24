@@ -88,6 +88,13 @@ div[class*="x"]{
     opacity: 0.2;
 } */
 
-h1:where(div){
-    background-color: yellow;
+
+/* .box-2 h1:nth-child(odd) {
+   
+} */
+/* .box-2{
+    background-color: gray;
+} */
+:where(box-3){
+    background-color: rgb(9, 101, 50);
 }
