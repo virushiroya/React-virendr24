@@ -1,0 +1,124 @@
+/* .masking{
+  -webkit-mask-image: url(../batman.png);
+  mask-image: url(../batman.png);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  width: 100%;
+}
+
+.masking img{
+  width: 100%;
+} */
+
+
+/* css Tooltip */
+
+/* .tooltip{
+  height: 40px;
+  width: 200px;
+  background-color: purple;
+  color:white;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 200px;
+  text-align: center;
+  vertical-align: baseline;
+  line-height: 200%;
+  position: relative;
+}
+.tip p{
+  color:black;
+  font-size: 10px;
+  background-color: green;
+}
+.tip{
+  display: none;
+  position: absolute;
+  top:-70px;
+  width: 100%;
+}
+.tooltip:hover .tip{
+  display: block;
+}
+.square{
+  height: 20px;
+  width: 20px;
+  background-color: green;
+  position: absolute;
+  bottom:0;
+  left:0;
+  right:0;
+  margin:auto;
+  transform: rotate(45deg);
+} */
+
+/* Dropdown menu */
+
+/* .dropdown{
+  position: fixed;
+  width: 100%;
+  top:0;
+}
+
+.dropdown ul{
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: gray;
+  margin: 0;
+}
+.dropdown ul li a{
+  color:white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{
+  margin: 50px;
+}
+
+.dropdown .inner-list{
+  display: none;
+  background-color: pink;
+}
+
+.dropdown ul li:hover .inner-list{
+  display: block;
+  position: absolute;
+  top:50px;
+}
+.dropdown .mega-inner-list{
+  display: none;
+  background-color: pink;
+}
+
+.dropdown ul li:focus-within .mega-inner-list{
+  display: block;
+  position: absolute;
+  top:50px;
+}
+
+.dropdown .inner-inner-list{
+  display: none;
+}
+
+.mega-inner-list:focus-within .dropdown .inner-inner-list{
+  display: block;
+} */
+
+/* Aspect - Ratios */
+
+/* iframe{
+  width: 100%;
+  aspect-ratio: 21/9;
+}
+
+@media (max-width:600px){
+  iframe{
+    aspect-ratio: 1/1;
+  }
+} */

@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  font-family: 'JetBrains Mono', monospace;
+}
+/********** Css Calc() ***********/
+
+/* h1{
+  font-size: 80px;
+} */
+
+
+/* h1{
+  max-width: 500px;
+  font-size: 80px;
+  font-size: calc(3vw  + 10px);
+} */
+/* @media (max-width:1500px){
+  h1{
+    font-size: 70px;
+  }
+}
+@media (max-width:1000px){
+  h1{
+    font-size: 60px;
+  }
+}
+@media (max-width:600px){
+  h1{
+    font-size: 45px;
+  }
+}
+@media (max-width:300px){
+  h1{
+    font-size: 25px;
+  }
+} */
+
+.container{
+  height: 200px;
+  /* max-width: 1200px; */
+  margin: auto;
+  width: calc(100% - 10%);
+  background-color: orange;
+}
+
+
+
+
+/****** Css Media Queries ********/
+
+
+/* .container{
+  max-width: 1300px;
+  margin: auto;
+}
+
+.maindiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgb(0, 140, 227);
+  align-items: center;
+  padding: 20px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li{
+  margin: 0px 20px;
+}
+
+nav ul li a{
+  color:white;
+  text-decoration: none;
+}
+
+.icons span i{
+  font-size: 20px;
+  margin: 0px 5px;
+  color:white
+}
+
+.mobile-menu span button{
+  border:none;
+  background-color: transparent;
+}
+.mobile-menu span button i{
+  font-size: 30px;
+  color:white
+}
+.mobile-menu{
+  display: none;
+}
+
+a.active {
+  background-color: cornflowerblue;
+} */
+
+
+  
+
+
+
+
+
+ 
