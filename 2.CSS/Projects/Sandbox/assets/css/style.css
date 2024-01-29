@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+}
+body{
+    font-family: 'Urbanist';
+}
+
+ul , ol {
+    padding: 0;
+}
+
+/* Sandbox start */
+
+.container{
+    max-width: calc(100% - 10%);
+    /* border:1px solid black; */
+    margin: auto;
+}
+.navigation{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 25px 0px;
+}
+
+.nav-items nav ul li , .social-icons ul li{
+    display: inline;
+}
+
+.nav-items nav ul li{
+    padding: 0px 20px;
+}
+
+.nav-items nav ul li a{
+    font-size: 16px;
+    font-weight: 600;
+    color:rgba(0, 0, 0, 0.737)
+}
+
+.social-icons{
+    display: flex;
+}
+.social-icons ul li{
+    padding: 0px 8px;
+}
+
+/* Banner Section Start */
+
+.banner{
+    background-image: url('../image/Banner-Back.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 150px 0px;
+}
+
+.solution-main{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.solution-text{
+    width:50%;
+}
+.solution-text h1{
+    font-size: 46px;
+    color:rgba(0, 0, 0, 0.742)
+}
+.solution-text p{
+    font-size: 23px;
+    color:rgba(0, 0, 0, 0.742)
+}
+.solution-text .gradiant{
+        background-image: linear-gradient(120deg, rgb(248, 87, 166) 10%, rgb(239, 63, 110) 100%);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        display: inline-block;
+}
+
+.explore{
+    padding: 20px 30px;
+    background-color: pink;
+    background-image: linear-gradient(120deg, rgb(248, 87, 166) 10%, rgb(239, 63, 110) 100%);
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.explore a{
+    color:white;
+    font-weight: bold;
+}
+
+.solution-image{
+    /* position: absolute; */
+    right: 0;
+    width: 50%;
+}
+
+.solution-image img{
+    max-width: 100%;
+    height: auto;
+}
+
+

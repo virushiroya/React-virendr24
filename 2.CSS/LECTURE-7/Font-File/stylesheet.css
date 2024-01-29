@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Rubik Doodle Triangles';
+    src: url('RubikDoodleTriangles-Regular.eot');
+    src: url('RubikDoodleTriangles-Regular.eot?#iefix') format('embedded-opentype'),
+        url('RubikDoodleTriangles-Regular.woff2') format('woff2'),
+        url('RubikDoodleTriangles-Regular.woff') format('woff'),
+        url('RubikDoodleTriangles-Regular.ttf') format('truetype'),
+        url('RubikDoodleTriangles-Regular.svg#RubikDoodleTriangles-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

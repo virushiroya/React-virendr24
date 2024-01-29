@@ -1,0 +1,50 @@
+/* Shofy start */
+
+a{
+  text-decoration: none;
+}
+header{
+  background-image: url('../image/bg-image.jpeg');
+  height: 100vh;
+  background-size: cover;
+}
+.border-bottom{
+  border-color:rgba(162, 162, 162, 0.443) !important;
+}
+
+/* Product Collection */
+
+.product-col{
+  margin-top: 100px;
+}
+.product-para{
+  color:#bd844c;
+}
+.shop-product a:hover{
+  color:white !important;
+  background-color:#bd844c ;
+}
+.product-1{
+  background-image: url('../image/product-1.jpeg');
+  min-height: 500px;
+  background-size: cover;
+  background-position: center;
+}
+.product-2{
+  background-image: url('../image/product-2.jpeg');
+  min-height: 500px;
+  background-size: cover;
+  background-position: center;
+}
+.product-3{
+  background-image: url('../image/product-3.jpeg');
+  min-height: 500px;
+  background-size: cover;
+  background-position: center;
+}
+.product-4{
+  background-image: url('../image/product-4.jpeg');
+  min-height: 500px;
+  background-size: cover;
+  background-position: center;
+}

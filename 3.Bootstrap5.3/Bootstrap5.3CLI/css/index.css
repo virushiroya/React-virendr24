@@ -1,0 +1,31 @@
+/* .row{
+  height: 400px;
+  background-color: gray;
+} */
+.col{
+  border:1px solid black;
+  /* height: 50px; */
+}
+.col-3{
+  border:1px solid black;
+  height: 50px;
+}
+.col-9{
+  border:1px solid black;
+  height: 50px;
+}
+.col-4{
+  border:1px solid black;
+}
+.col-6{
+  border:1px solid black;
+}
+.w-100{
+  border:1px solid black;
+}
+/* .col-12{
+  width: 100%;
+}  */
+.col{
+  border:1px solid black;
+}
