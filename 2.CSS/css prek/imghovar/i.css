@@ -1,0 +1,74 @@
+.container {
+  position: relative;
+  height: 600px;
+  width: 400px;
+  overflow: hidden;
+  border-radius: 50px;
+  filter: blur(10px 10px 20px black);
+  overflow: hidden;
+}
+/* .image {
+  position: absolute;
+  width: inherit;
+  height: auto;
+  border-radius: 50px;
+  object-fit:contain;  
+} */
+.middle {
+  position: absolute;
+  display: block;
+  width: inherit;
+  height: 300px;
+  bottom: 0;
+  z-index: auto;
+  transition: .5s ease;
+  opacity: 0.1;
+  background-color: rgb(1, 1, 1);
+}
+.container:hover .image {
+  opacity: 1;
+}
+.container:hover .middle {
+  opacity: 0;
+  color: rgb(98, 114, 114);
+  justify-content: center;
+}
+.text {
+  height: inherit;
+  width: inherit;
+}
+.text span{
+  position: absolute;
+  background-color: #ffdcdc;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-family: cursive;
+  padding: 16px 40px;
+  border-radius: 20PX;
+  width: 150px;
+  height: fit-content;
+  transition: .5s ease;
+  transform:rotate(360deg);
+  bottom: 0;
+  top:0;
+  left:0;
+  right:0;
+  margin: auto;
+  display: none;
+}
+.container:hover text{
+  display: block;
+  opacity: 0;
+  color: rgb(255, 216, 216);
+  justify-content: center;
+}
+.maindiv{
+  height: inherit;
+  width: inherit;
+  background-image: url('../imghovar/i-1.jpg');
+  background-size: cover;
+}
+.maindiv:hover .text span{
+  display: block;
+  color:rgb(150, 150, 255);
+}
