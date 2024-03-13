@@ -1,0 +1,55 @@
+.container-1 div{
+    border: 6px solid white;
+    color: white;
+    background-color: rgb(96, 185, 220);
+    text-align: center;
+    height: 60px;
+}
+
+.container-2 div{
+    border: 6px solid white;
+    color: white;
+    background-color: green;
+    text-align: center;
+    height: 60px;
+}
+
+.container-3 div{
+    border: 6px solid white;
+    color: white;
+    background-color: blue;
+    text-align: center;
+    height: 60px;
+}
+
+.container-4 div{
+    border: 6px solid white;
+    color: white;
+    background-color: blueviolet;
+    text-align: center;
+    height: 60px;
+}
+
+.container-5 div{
+    border: 6px solid white;
+    color: white;
+    background-color: purple;
+    text-align: center;
+    height: 60px;
+}
+
+.container-6 div{
+    border: 6px solid white;
+    color: white;
+    background-color: rgb(210, 24, 86);
+    text-align: center;
+    height: 60px;
+}
+
+.container-7 div{
+    border: 6px solid white;
+    color: white;
+    background-color: rgb(217, 47, 47);
+    text-align: center;
+    height: 60px;
+}

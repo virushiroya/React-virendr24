@@ -1,0 +1,7 @@
+.container div{
+    border: 6px solid white;
+    color: white;
+    background-color: rgb(34, 106, 195);
+    text-align: center;
+    height: 60px;
+}
