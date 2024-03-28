@@ -186,9 +186,9 @@
 
 // clear Method
 
-// let ClearSets = SetObject.clear()
+let ClearSets = SetObject.clear()
 
-// console.log(Setobject);
+console.log(Setobject);
 
 // forEach Method
 
