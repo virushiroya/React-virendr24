@@ -1,0 +1,18 @@
+*{
+  padding: 10px;
+  margin: 0;
+}
+
+.box{
+  padding: 20px;
+  border: 1px solid black;
+  margin-bottom: 9px;
+  background-color: rgb(184, 180, 180);
+}
+
+.box-1 , .box-2 , .box-3{
+  padding: 10px;
+  border: 1px solid black;
+  margin-bottom: 9px;
+  background-color: rgb(184, 180, 180);
+}
